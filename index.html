@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="bg-slate-900 flex items-center justify-between h-16 px-6 md:px-12 fixed top-0 right-0 left-0 z-50">
+        <div>
+            <a href="#">
+                <h2 class="uppercase text-xl md:text-2xl tracking-widest font-normal text-teal-400">portfolio.</h2>
+            </a>
+        </div>
+        <ul class="flex flex-col md:flex-row  fixed top-16 left-0 md:left-auto md:top-auto md:relative md:gap-10  font-medium leading-10 md:leading-none  w-full md:w-auto text-center transition-all duration-500 ease-in-out h-0 bg-white md:bg-inherit tracking-wider overflow-hidden md:overflow-visible shadow-lg md:shadow-none md:text-white md:pb-4 dropdown">
+            <a href="#home"><li class="mb-5 md:mb-0 mt-5 md:mt-0 hover:text-teal-400 listBtn ">Home</li></a>
+            <a href="#about"><li class="mb-5 md:mb-0 hover:text-teal-400 listBtn">About</li></a>
+            <a href="#projects"><li class="mb-5 md:mb-0 hover:text-teal-400 listBtn">Projects</li></a>
+            <a href="#contact"><li class="mb-5 md:mb-0 hover:text-teal-400 listBtn">Contact</li></a>
+        </ul>
+        <button class="md:hidden focus:outline-none focus:ring-2 focus:ring-white px-3 py-1 rounded text-lg md:text-xl text-white bar-btn"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    
+    <!-- navbar ends here -->
+
+    <!-- Home section starts here -->
+     
+    <header class="w-full h-screen bg-no-repeat bg-cover bg-slate-900 pt-12 -z-10" id="home">
+
+        <div class="flex flex-col items-center justify-center gap-3 md:gap-5 h-[calc(100vh-_9.98439937597504vh)] text-white font-bold text-center">
+            
+            <img src="./images/portfolio-pic.png" alt="Picture of Ihsan saif" class="w-36 h-36 border-4  border-white rounded-full reveal-top">
+            <h3 class="text-lg sm:text-xl reveal-bottom">Hello, it's me</h3>
+            <h1 class="text-3xl font-bold md:text-5xl text-teal-400 reveal-bottom">IHSAN SAIF</h1>
+            <h3 class="text-lg sm:text-xl reveal-bottom px-2">And I am <span class="italic tracking-wider text-xl md:text-2xl"> <span class="text-teal-400 reveal-bottom">“</span>Artificial Intelligence Programmer<span class="text-teal-400">”</span></span></h3>
+            <div class="text-teal-400 text-2xl flex gap-3 md:gap-5 mt-2 reveal-bottom">
+                <a href="https://www.linkedin.com/in/its-saif-products/" target="_blank"><button class=""><i class="social-icons fa-brands fa-linkedin"></i></button></a>
+                <a href="https://github.com/ihsansaif313"target="_blank"><button class=""><i class="social-icons fa-brands fa-github"></i></button></a>
+                <a href="https://www.facebook.com/ihsan.saifedwardian"target="_blank"><button class=""><i class="social-icons fa-brands fa-facebook-f"></i></button></a>
+                <a href="https://www.instagram.com/ihsansaif313/"target="_blank"><button class=""><i class="social-icons fa-brands fa-instagram"></i></button></a>
+            </div>
+            <button id="viewCvBtn" class="cv-btn reveal-bottom tracking-wider">Download CV</button>
+            
+    
+        </div>
+    </header>
+
+    <!-- Home section ends here -->
+
+
+    <!-- About section starts here -->
+    <div class="flex flex-col md:flex-row h-auto md:h-screen items-center justify-center md:justify-evenly bg-slate-900 text-white gap-10 pt-14 mx-4 md:mx-0" id="about">
+    <div class="reveal-top">
+        <img src="./images/portfolio-pic.png" alt="Picture of Ihsan saif or Ihsan ullah khan or ihsansaif313" class="w-48 md:w-[300px] lg:w-[350px] border-8 border-teal-400 rounded-full object-cover">
+    </div>
+    <div class="text-center md:text-start reveal-bottom px-4 md:px-0">
+        <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl uppercase mb-2">About Me</h1>
+        <h2 class="font-medium text-xl lg:text-2xl text-teal-400 mb-2 tracking-widest">Artificial Intelligence Programmer</h2>
+        <p class="px-6 md:px-0  w-full sm:w-[400px] md:w-[300px] lg:w-[550px] md:leading-7 text-justify text-base md:text-[18px] text-gray-400">
+            With a strong foundation in computer science from Edwardes College and ongoing studies in artificial intelligence at the Sir Syed CASE Institute, my journey in technology has been both dynamic and rewarding. At Sir Syed CASE Institute, I bring my programming skills to life, contributing to advancements in artificial intelligence and deepening our collective understanding of this transformative field.
+            <br><br>
+            In parallel, I leverage my extensive programming expertise from past experiences to enhance the reach and impact of our projects. This dual role allows me to seamlessly integrate cutting-edge AI solutions with strategic marketing initiatives, ensuring a holistic approach to technology adoption and innovation.
+            <br><br>
+            I am passionate about pushing the boundaries of what technology can achieve and am dedicated to making meaningful contributions to the tech community. My commitment to excellence drives me to continuously learn and grow, staying at the forefront of emerging technologies.
+            <br><br>
+            <div class="flex justify-center">
+                <span style="color: #1dd842; font-size: 1.875rem; font-weight: bold; text-transform: uppercase; text-align: center;" class="block">SKILLS</span>
+            </div>
+            <ul class="skills-list">
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Programming Languages:</b> Python | Java | C++ | JavaScript</li>
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Web Development:</b> HTML | CSS | React | Node.js</li>
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Artificial Intelligence:</b> Machine Learning | Deep Learning | NLP | TensorFlow | Keras | PyTorch</li>
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Blockchain Development:</b> Smart Contracts | Solidity | Ethereum | NFTs | dApps</li>
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Project Management & Collaboration:</b> Agile | Scrum | Git | GitHub | Communication</li>
+                <li><b class="text-teal-400 font-bold uppercase md:tracking-widest">Additional Skills:</b> IoT Development | E-commerce | Marketing</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+<!-- project section starts here -->
+<div class="flex flex-col items-center justify-center bg-slate-900 text-white py-20 px-5" id="projects">
+    <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl uppercase mb-12 reveal-top">My <span class="text-teal-400">projects</span></h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-10 reveal-bottom">
+        <!-- project cards starts here -->
+        <div class="project-cards">
+            <img src="images/HTMLCSSJS.png" alt="" class="w-full">
+            
+            <div class="p-4">
+                <p class="text-slate-700 text-justify text-sm md:text-base">Learn the essentials of web development with HTML by structuring content and creating links, which form the foundation for dynamic web pages. Master the art of styling with CSS to enhance your pages' look and feel through effective layout and design. Bring interactivity and dynamic functionality to your projects with JavaScript, understanding scripting basics and manipulating the DOM to create engaging user experiences.
+                </p>
+                <a href="htmlcssjavascript.html"><button class="view-project-btn">View Projects</button></a>
+            </div>
+        </div>
+
+            <!-- project cards ends here -->
+        </div>
+    </div>
+    <!-- project section ends here -->
+
+
+    <!-- Contact Section Starts Here -->
+<div class="flex flex-col items-center justify-center h-screen bg-slate-800 text-white pt-10 md:pt-20" id="contact">
+    <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl uppercase mb-8 md:mb-10 reveal-top">Contact <span class="text-teal-400">Me</span></h1>
+
+    <form id="contactForm" class="flex flex-col flex-wrap items-center reveal-bottom">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-md">
+            <input type="text" id="firstName" placeholder="First Name*" class="input-field input1" required>
+            <input type="text" id="lastName" placeholder="Last Name*" class="input-field input2" required>
+            <input type="email" id="email" placeholder="Email*" class="input-field input3" required>
+            <input type="tel" id="mobile" placeholder="Mobile No.*" class="input-field input4" required>
+        </div>
+        <textarea id="message" class="input-textarea input5" placeholder="Write your thoughts here...*" required></textarea>
+        <button type="submit" class="cv-btn message">Send Message</button>
+    </form>
+</div>
+<!-- Contact Section Ends Here -->
+
+<script>
+    // Initialize EmailJS
+    (function() {
+    emailjs.init("gBigcmR9V5B8p3k_Q"); // Use your API key here
+})();
+
+  // Handle form submission
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Gather input values
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const email = document.getElementById('email').value;
+    const mobile = document.getElementById('mobile').value;
+    const message = document.getElementById('message').value;
+
+    // Prepare template parameters
+    const templateParams = {
+        to_name: 'Ihsan Saif', // Replace with your name or business name
+        from_name: `${firstName} ${lastName}`,
+        email: email,
+        mobile: mobile,
+        message: message,
+        year: new Date().getFullYear()
+    };
+
+    // Send the email
+    emailjs.send('service_9nw52he', 'template_wpmqi57', templateParams)
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            alert('Your message has been sent successfully!');
+            // Clear the form fields
+            document.getElementById('contactForm').reset();
+
+            // Redirect to success.html
+            window.location.href = 'success.html';
+
+            // After 3 seconds, redirect back to the main page
+            setTimeout(() => {
+                window.location.href = 'index.html'; // Change 'index.html' to your main page file name
+            }, 3000);
+        }, (error) => {
+            console.log('FAILED...', error);
+            alert('There was an error sending your message. Please try again later.');
+        });
+});
+</script>
+    
+    <!-- contact section ends here -->
+
+
+    <!-- footer section starts here -->
+
+    <footer class="flex justify-evenly items-start flex-wrap bg-gray-900 py-20">
+        <div class="flex flex-col justify-center text-white items-center md:items-start w-64 md:w-auto mb-8 md:mb-0">
+            <h3 class="text-teal-400 font-bold text-2xl mb-2">About Me</h3>
+            <p class="w-48 text-center md:text-start text-sm md:text-[15px] leading-6 md:leading-7">Artificial Intelligence Programmer</p>
+        </div>
+        <div class="text-white flex flex-col items-center md:items-start text-center md:text-start w-64 md:w-auto mb-8 md:mb-0">
+            <h2 class="font-bold text-xl">Contact Me</h2>
+            <div class="border-b-2 border-b-teal-400 w-36 my-2"></div>
+            <div class="w-56 text-sm md:text-[15px] leading-6 md:leading-7">
+                <p><b>Email :</b> ihsansaifedwardion@gmail.com</p>
+                <p><b>Whatsapp :</b> +923064500428 </p>
+                <p><b>Address :</b> ISLAMABAD PAKISTAN</p>
+            </div>
+        </div>
+        <div class="text-white flex flex-col items-center md:items-start text-center w-64 md:w-auto mb-8 md:mb-0">
+            <h2 class="font-bold text-xl">Quick Links</h2>
+            <div class="border-b-2 border-b-teal-400 w-36 my-2"></div>
+            <div class="text-sm md:text-[15px] flex flex-col items-center md:items-start leading-6 md:leading-7">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+        <div class="text-white flex flex-col items-center md:items-start text-center w-64 md:w-auto mb-5 md:mb-0 ">
+            <h2 class="font-bold text-xl">Follow Me</h2>
+            <div class="border-b-2 border-b-teal-400 w-36 my-3"></div>
+            <div class="text-teal-400 text-2xl flex gap-2 md:gap-5 mt-2 reveal-bottom">
+                <a href="https://www.linkedin.com/in/its-saif-products/" target="_blank"><button class=""><i class="social-icons fa-brands fa-linkedin"></i></button></a>
+                <a href="https://github.com/ihsansaif313"target="_blank"><button class=""><i class="social-icons fa-brands fa-github"></i></button></a>
+                <a href="https://www.facebook.com/ihsan.saifedwardian"target="_blank"><button class=""><i class="social-icons fa-brands fa-facebook-f"></i></button></a>
+                <a href="https://www.instagram.com/ihsansaif313/"target="_blank"><button class=""><i class="social-icons fa-brands fa-instagram"></i></button></a>
+            </div>
+        </div>
+
+        <div class="flex justify-end mr-8 mb-16 md:mb-20 fixed right-0 bottom-0 fixed-button">
+            <a href="#" class=""><button class="font-extrabold bg-teal-400 p-1 md:p-3 rounded-full h-10 md:h-12 w-10 md:w-12 shadow-custom hover:shadow-none" ><i class="fa-solid fa-arrow-up"></i></button></a>
+        </div>
+    </footer>
+
+    <!-- footer section ends here -->
+
+    <div class="bg-slate-800 p-4">
+        <div class="container mx-auto text-center text-white">
+            <p class="text-sm md:text-[15px]">&copy; 2024 . All rights reserved to Ihsan Saif.</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
